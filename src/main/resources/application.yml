@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: vault_lab
+
+server:
+  port: ${PORT:8080}
+
+application:
+  vault-config:
+    endpoint: ${VAULT_ENDPOINT:http://localhost:8200}
+    root-token: ${VAULT_ROOT_TOKEN:s.aY7BJaHbgUUAMkhR50HJj7aR}
