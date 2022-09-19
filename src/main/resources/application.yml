@@ -8,4 +8,4 @@ server:
 application:
   vault-config:
     endpoint: ${VAULT_ENDPOINT:http://localhost:8200}
-    root-token: ${VAULT_ROOT_TOKEN:s.aY7BJaHbgUUAMkhR50HJj7aR}
+    root-token: ${VAULT_ROOT_TOKEN:hvs.fmQLNdaDwDfZ0QShE220fXlp}
